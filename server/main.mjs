@@ -3,7 +3,7 @@ import * as util from "./util.mjs"
 
 (async function() {
     const config = {
-        entryFiles: ["calendar/source/main.js"],
+        entryFiles: ["calendar/source/main.js", "sudoku/source/main.js"],
         serverPath: "",
         listenPort: 8080,
     }

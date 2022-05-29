@@ -2,5 +2,6 @@
 node_modules
 
 # Built files
-calendar/*.css
-calendar/*.js
+*/*.css
+*/*.js
+*/*.js.map

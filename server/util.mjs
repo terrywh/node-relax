@@ -88,7 +88,7 @@ export const memory = new Map()
 function outputBuild(file, output) {
     for(const o of output.output) {
         console.log(new Date(), "INFO", file.input, "=>", o.isEntry ? file.output : file.css)
-        if (!production) memory.set(o.isEntry ? file.output : file.css, {mtime: new Date(), data: o.code || o.source})
+        if (!production) memory.set(o.isEntry ? '/' + file.output : '/' + file.css, {mtime: new Date(), data: o.code || o.source})
     }
 }
 
