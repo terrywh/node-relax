@@ -28,8 +28,8 @@ function optionFile(source) {
 	const name = base.substring(0, base.length - ext.length)
 	return {
 		input: source,
-		css: path.normalize(dir + '/' + name + '.css'),
-		output: path.normalize(dir + '/' + name + '.js'),
+		css: path.normalize(dir + '/bundle/' + name + '.css'),
+		output: path.normalize(dir + '/bundle/' + name + '.js'),
 	}
 }
 
