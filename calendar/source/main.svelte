@@ -19,6 +19,7 @@
         {"name": "数学", "type": "bg-warning"},
         {"name": "跳绳", "type": "bg-danger"},
         {"name": "爵士", "type": "bg-danger"},
+        {"name": "羽毛球", "type": "bg-danger"},
     ]
     let calendar = []
     let current = new Date()
